@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+}
+
+p {
+  text-align: center;
+}
+
+.improve {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.scan {
+  font-size: 18px;
+  color: grey;
+}
+
+.qr-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  height: 600px;
+  width: 400px;
+  border-radius: 25px;
+}
+
+.qr-code {
+  display: grid;
+  justify-content: center;
+  height: 400px;
+}
+
+.qr-image {
+  margin: auto 0;
+  height: 350px;
+  width: 350px;
+  border-radius: 25px;
+}
+
+.info {
+  width: 350px;
+  height: 150px;
+  margin: auto;
+  }
